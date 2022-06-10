@@ -1,4 +1,4 @@
-# Python-Behave Test Automation framework for WMS
+# Python-Behave Test Automation framework 
 
 
 ## Setup:
