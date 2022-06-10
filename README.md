@@ -20,7 +20,6 @@
 
 `behave`
 
- `behave --tags=test`
 
 
 
