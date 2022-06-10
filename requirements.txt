@@ -1,0 +1,49 @@
+# Initial setup requirements
+
+# Initial setup requirements
+setuptools
+wheel
+
+# Framework requirements
+behave
+selenium==3.141.0
+sauceclient
+nose
+requests
+assertpy
+jsonpath-ng
+pyyaml
+pytz
+#connect to sql db
+pyodbc
+coverage
+autoit
+
+# For packaging
+twine
+
+# Allure Report requirements
+allure-behave
+
+# GraphQL requirements
+gql
+graphql-from-struct
+
+# HTML Report requirements
+behave-html-formatter
+beautifulsoup4
+lxml
+
+# Swagger custom requirements
+prance
+openapi-spec-validator
+pika-stubs
+assertpy
+jsonpath-ng
+pyyaml
+certifi
+six
+python_dateutil
+urllib3
+
+

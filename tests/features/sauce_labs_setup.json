@@ -1,0 +1,45 @@
+{
+  "name": "Test Automation Execution",
+  "build": "WMS",
+  "sauceUser": "sso-iherb-jigisha.shah",
+  "sauceKey": "5f08d6b3-a158-48a7-ae34-201e28e251d3",
+  "sauceHost": "https://{}:{}@ondemand.us-west-1.saucelabs.com:443/wd/hub",
+  "browserName": "chrome",
+  "platform": "Windows 10",
+  "tunnelIdentifier": "sso-iherb-jigisha.shah_tunnel_id",
+  "avoidProxy": true,
+  "unexpectedAlertBehaviour": "accept",
+  "directConnect": true,
+  "public": "share",
+  "recordScreenshots": true,
+  "maxDuration": 3000,
+
+  "chromeOptions": {
+
+    "args": [
+      "--profile-directory=Default",
+      "--disable-web-security",
+      "--start-maximized",
+      "--disable-software-rasterizer",
+      "--disable-gpu"
+    ]
+  },
+
+  "prerun": {
+    "executable": "storage:filename=wms.exe",
+    "args": [ "--silent", "-a", "-q" ],
+    "background": false
+  },
+
+   "goog:loggingPrefs": {
+                "performance": "ALL"
+            },
+
+
+  "deviceProperties": {
+    "device": "Virtual Machine",
+    "platform": {
+      "name": "Windows 10"
+    }
+  }
+}
