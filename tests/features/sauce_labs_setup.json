@@ -1,12 +1,12 @@
 {
   "name": "Test Automation Execution",
-  "build": "WMS",
-  "sauceUser": "sso-iherb-jigisha.shah",
-  "sauceKey": "5f08d6b3-a158-48a7-ae34-201e28e251d3",
+  "build": "xyz",
+  "sauceUser": "xxxx",
+  "sauceKey": "xxxxx",
   "sauceHost": "https://{}:{}@ondemand.us-west-1.saucelabs.com:443/wd/hub",
   "browserName": "chrome",
   "platform": "Windows 10",
-  "tunnelIdentifier": "sso-iherb-jigisha.shah_tunnel_id",
+  "tunnelIdentifier": "xxxx",
   "avoidProxy": true,
   "unexpectedAlertBehaviour": "accept",
   "directConnect": true,
@@ -26,9 +26,9 @@
   },
 
   "prerun": {
-    "executable": "storage:filename=wms.exe",
+    "executable": "storage:filename=autoit.exe",
     "args": [ "--silent", "-a", "-q" ],
-    "background": false
+    "background": true
   },
 
    "goog:loggingPrefs": {

@@ -22,7 +22,7 @@ def createDriver():
     options.add_experimental_option('excludeSwitches', ['enable-logging'])
     capabilities = DesiredCapabilities.CHROME
     capabilities["goog:loggingPrefs"] = {"performance": "ALL"}
-    capabilities["prerun"] = {"executable": "storage:filename=wms.exe", "args": ["--silent", "-a", "-q"], "background": True}
+    capabilities["prerun"] = {"executable": "storage:filename=autoit.exe", "args": ["--silent", "-a", "-q"], "background": True}
     driver = webdriver.Chrome(executable_path='webdrivers/chromedriver.exe', desired_capabilities=capabilities, options=options)
     return driver
 

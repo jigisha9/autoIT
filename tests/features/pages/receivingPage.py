@@ -16,10 +16,6 @@ class MainPage():
     def login_with_autoit(self):
         print('start login_with_autoit')
         time.sleep(5)
-        print("before")
-        time.sleep(3)
-      #  subprocess.call('wms.exe')
-        print("after")
         print('end login_with_autoit')
 
 
