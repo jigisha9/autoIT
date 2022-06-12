@@ -23,8 +23,9 @@
 ##### Steps:
 1. launch chrome browser 
 2. Navigate to: https://the-internet.herokuapp.com/basic_auth
-3. authenticate dialog: domain authentication using autoIT: wms.exe (wms.au3 attached) 
-4. Test execution on saucelabs 
+3. authenticate dialog: domain authentication using autoIT: autoit.exe (autoit.au3 attached) 
+4. Test execution on saucelabs - change sauceKey, sauceUser, tunnelIdentifier in file //features/sauce_labs_setup.json 
+
 
 #### Author
 Jigisha Shah 

@@ -16,6 +16,7 @@ class MainPage():
     def login_with_autoit(self):
         print('start login_with_autoit')
         time.sleep(5)
+        # pop up domain authentication dialog, pre run using autoit script autoit.exe
         print('end login_with_autoit')
 
 
